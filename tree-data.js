@@ -13,25 +13,25 @@ var chart_config = {
     "text": {
       "name": "Александра Суркова"
     },
-    "image": "images/aleksandra.jpg",
+    "image": "https://via.placeholder.com/80?text=AS",
     "children": [
       {
         "text": {
           "name": "Дарья Слабий"
         },
-        "image": "images/darya.jpg",
+        "image": "https://via.placeholder.com/80?text=DS",
         "children": [
           {
             "text": {
               "name": "Людмила Климачкова"
             },
-            "image": "images/lyudmila.jpg"
+            "image": "https://via.placeholder.com/80?text=LK"
           },
           {
             "text": {
               "name": "Валентин Слабий"
             },
-            "image": "images/valentin.jpg"
+            "image": "https://via.placeholder.com/80?text=VS"
           }
         ]
       },
@@ -39,19 +39,19 @@ var chart_config = {
         "text": {
           "name": "Андрей Боляновский"
         },
-        "image": "images/andrey.jpg",
+        "image": "https://via.placeholder.com/80?text=AB",
         "children": [
           {
             "text": {
               "name": "Галина Моцкус"
             },
-            "image": "images/galina.jpg"
+            "image": "https://via.placeholder.com/80?text=GM"
           },
           {
             "text": {
               "name": "Александр Боляновский"
             },
-            "image": "images/aleksandr.jpg"
+            "image": "https://via.placeholder.com/80?text=ALB"
           }
         ]
       }

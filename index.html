@@ -4,10 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Родословное древо</title>
-    <link rel="stylesheet" href="treant.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="raphael.min.js"></script>
-    <script src="treant.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/treant-js@1.0.0/Treant.css">
+    <style>
+        body {
+            font-family: Georgia, serif;
+            background-color: #f7f3ea;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 { color: #4a3f2d; }
+        .Treant { margin-top: 40px; }
+        .person-node {
+            border: 2px solid #b89f84;
+            border-radius: 10px;
+            background-color: #fffdf7;
+            padding: 10px;
+            text-align: center;
+        }
+        .person-node img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 2px solid #ccb193;
+            margin-bottom: 5px;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/treant-js@1.0.0/Treant.min.js"></script>
     <script src="tree-data.js" defer></script>
 </head>
 <body>
