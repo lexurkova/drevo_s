@@ -4,22 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Родословное древо</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="treant.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="raphael.min.js"></script>
+    <script src="treant.min.js"></script>
+    <script src="tree-data.js" defer></script>
 </head>
 <body>
-    <h1>Родословная книга семьи</h1>
-    <div id="tree-container"></div>
-
-    <div id="person-modal" class="modal hidden">
-        <div class="modal-content">
-            <span class="close-button" onclick="closeModal()">×</span>
-            <img id="modal-photo" src="" alt="">
-            <h2 id="modal-name"></h2>
-            <p id="modal-birth"></p>
-            <p id="modal-info"></p>
-        </div>
-    </div>
-
-    <script src="./script.js" defer></script>
+    <h1>Родословное древо</h1>
+    <div id="tree-simple" class="tree-simple treant"></div>
 </body>
 </html>
