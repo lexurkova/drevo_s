@@ -12,7 +12,6 @@ async function loadPeople() {
         container.appendChild(card);
     });
 }
-
 function showModal(p) {
     document.getElementById('modal-photo').src = `./${p.photo}`;
     document.getElementById('modal-name').textContent = p.name;
@@ -20,9 +19,7 @@ function showModal(p) {
     document.getElementById('modal-info').textContent = p.info;
     document.getElementById('person-modal').classList.remove('hidden');
 }
-
 function closeModal() {
     document.getElementById('person-modal').classList.add('hidden');
 }
-
 loadPeople();
