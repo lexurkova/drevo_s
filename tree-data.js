@@ -41,3 +41,5 @@ var chart_config = {
     ]
   }
 };
+
+new Treant(chart_config);
